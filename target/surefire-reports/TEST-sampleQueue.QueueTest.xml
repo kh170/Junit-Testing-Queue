@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SampleQueue.QueueTest" time="0.025" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/test-classes:/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/classes:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/bashirulazambiswas/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/surefire/surefirebooter10371114824092090412.jar /Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/surefire 2022-12-05T18-14-18_695-jvmRun1 surefire5807534206349432025tmp surefire_09040461387956849228tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/test-classes:/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/classes:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/bashirulazambiswas/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/bashirulazambiswas/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bashirulazambiswas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2/target/surefire/surefirebooter10371114824092090412.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+0"/>
+    <property name="user.name" value="bashirulazambiswas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/bashirulazambiswas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ny/bg8rfjss6335gnnx117srf5c0000gn/T/"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/bashirulazambiswas/Documents/Sadia/SUNY courses/2022_Fall/ICSI 518 Software Engineering/Lab and Assignments/Git/junit-testing-srahman2"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/bashirulazambiswas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="peekShowFirstItemForNonEmptyQueue" classname="SampleQueue.QueueTest" time="0.01"/>
+  <testcase name="sizeShowsNumberOfItemsInQueue" classname="SampleQueue.QueueTest" time="0"/>
+  <testcase name="removeAllItemsOfQueue" classname="SampleQueue.QueueTest" time="0.001"/>
+  <testcase name="enqueueAddsLastElementIfPreviouslyNotEmpty" classname="SampleQueue.QueueTest" time="0.001"/>
+  <testcase name="lengthShowsNumberOfItemsInQueue" classname="SampleQueue.QueueTest" time="0.001"/>
+  <testcase name="isEmptyShouldGiveTrueOnQueueInit" classname="SampleQueue.QueueTest" time="0"/>
+  <testcase name="enqueueAddsFirstElementIfPreviouslyEmpty" classname="SampleQueue.QueueTest" time="0.001"/>
+  <testcase name="peekThrowsExceptionOnEmpty" classname="SampleQueue.QueueTest" time="0.001"/>
+  <testcase name="dequeueRemoveElementsFromQueue" classname="SampleQueue.QueueTest" time="0"/>
+  <testcase name="dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue" classname="SampleQueue.QueueTest" time="0.007">
+    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;java.util.NoSuchElementException&gt; but was: &lt;java.lang.NullPointerException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at SampleQueue.QueueTest.dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue(QueueTest.java:71)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "x0" is null
+	at SampleQueue.QueueTest.lambda$1(QueueTest.java:71)
+	at SampleQueue.QueueTest.dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue(QueueTest.java:71)
+]]></failure>
+  </testcase>
+  <testcase name="enqueueThrowsErrorWhenMaxLengthExceeded" classname="SampleQueue.QueueTest" time="0"/>
+</testsuite>

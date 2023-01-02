@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: SampleQueue.QueueTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in SampleQueue.QueueTest
+dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.util.NoSuchElementException> but was: <java.lang.NullPointerException>
+	at SampleQueue.QueueTest.dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue(QueueTest.java:71)
+Caused by: java.lang.NullPointerException: Cannot read field "item" because "x0" is null
+	at SampleQueue.QueueTest.lambda$1(QueueTest.java:71)
+	at SampleQueue.QueueTest.dequeueThrowsNoSuchElementExceptionWhenAppliedOnNonEmptyQueue(QueueTest.java:71)
+
